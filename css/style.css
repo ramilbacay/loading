@@ -21,8 +21,8 @@
 margin: auto;	
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-left: 16px solid #3498db;
-  border-right: 16px solid #3498db;
+  border-left: 16px solid #b22222;
+  border-right: 16px solid #b22222;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
   width: 87px;
@@ -39,13 +39,31 @@ margin: auto;
 margin: auto;	
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-left: 16px solid #3498db;
-  border-right: 16px solid #3498db;
+  border-left: 16px solid #228B22;
+  border-right: 16px solid #228B22;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
   width: 57px;
   height: 57px;
   animation: third 5s linear infinite;
+}
+
+@keyframes third {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-4 {
+margin: auto;	
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-left: 16px solid #FFA500;
+  border-right: 16px solid #FFA500;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  width: 27px;
+  height: 27px;
+  animation: third 6s linear infinite;
 }
 
 @keyframes third {
